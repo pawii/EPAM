@@ -1,4 +1,7 @@
 *.db
 *.log
-/target
-/bin
+3_UnitTesting/3_UnitTesting/bin
+3_UnitTesting/3_UnitTesting/obj
+3_UnitTesting/TriangleTest/obj
+3_UnitTesting/TriangleTest/obj
+3_UnitTesting/.vs
