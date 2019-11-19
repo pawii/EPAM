@@ -1,7 +1,0 @@
-C:\Users\pawii\Desktop\Learning\7 семестр\EPAM\EPAM\3_UnitTesting\3_UnitTesting\bin\Debug\3_UnitTesting.exe.config
-C:\Users\pawii\Desktop\Learning\7 семестр\EPAM\EPAM\3_UnitTesting\3_UnitTesting\bin\Debug\3_UnitTesting.exe
-C:\Users\pawii\Desktop\Learning\7 семестр\EPAM\EPAM\3_UnitTesting\3_UnitTesting\bin\Debug\3_UnitTesting.pdb
-C:\Users\pawii\Desktop\Learning\7 семестр\EPAM\EPAM\3_UnitTesting\3_UnitTesting\obj\Debug\3_UnitTesting.csprojAssemblyReference.cache
-C:\Users\pawii\Desktop\Learning\7 семестр\EPAM\EPAM\3_UnitTesting\3_UnitTesting\obj\Debug\3_UnitTesting.csproj.CoreCompileInputs.cache
-C:\Users\pawii\Desktop\Learning\7 семестр\EPAM\EPAM\3_UnitTesting\3_UnitTesting\obj\Debug\3_UnitTesting.exe
-C:\Users\pawii\Desktop\Learning\7 семестр\EPAM\EPAM\3_UnitTesting\3_UnitTesting\obj\Debug\3_UnitTesting.pdb
