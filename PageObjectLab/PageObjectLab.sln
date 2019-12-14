@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PageObjectLab", "PageObjectLab.csproj", "{1F26DE75-E3A5-4348-B4EE-01A4488C31D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F26DE75-E3A5-4348-B4EE-01A4488C31D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F26DE75-E3A5-4348-B4EE-01A4488C31D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F26DE75-E3A5-4348-B4EE-01A4488C31D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F26DE75-E3A5-4348-B4EE-01A4488C31D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA664E9B-B4DE-43ED-99E2-A570F656E924}
+	EndGlobalSection
+EndGlobal
