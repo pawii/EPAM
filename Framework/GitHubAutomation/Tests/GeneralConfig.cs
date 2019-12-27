@@ -6,6 +6,7 @@ using NUnit.Framework;
 using log4net;
 using log4net.Config;
 using GitHubAutomation.Driver;
+using GitHubAutomation.Pages;
 
 namespace GitHubAutomation.Tests
 {
@@ -21,6 +22,7 @@ namespace GitHubAutomation.Tests
             Driver = DriverSingleton.GetDriver();
             Driver.Navigate().GoToUrl("https://brest.minsktoys.by");
             Driver.Manage().Window.Maximize();
+            Driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(15);
         }
 
         protected void TakeScreenshotWhenTestFailed(Action action)
@@ -39,6 +41,17 @@ namespace GitHubAutomation.Tests
                                                        ScreenshotImageFormat.Png);
                 Log.Error("Test_Failure");
             }
+        }
+
+        protected void SelectFirstBoyToy()
+        {
+            var mainPage = new MainPage(Driver);
+            var childrenToysPage = new ChildrenToysPage(Driver);
+            var boysToysPage = new BoysToysPage(Driver);
+
+            mainPage.ChildrenToysClick();
+            childrenToysPage.BoysToysClick();
+            boysToysPage.ClickOnFirstToy();
         }
 
         [TearDown]

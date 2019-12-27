@@ -78,9 +78,13 @@
   <ItemGroup>
     <Compile Include="Driver\DriverSingleton.cs" />
     <Compile Include="Logger.cs" />
+    <Compile Include="Pages\BoysToysPage.cs" />
+    <Compile Include="Pages\ChildrenToysPage.cs" />
+    <Compile Include="Pages\GirlsToysPage.cs" />
     <Compile Include="Pages\MainPage.cs" />
     <Compile Include="Pages\RegisterPage.cs" />
     <Compile Include="Pages\ToyInfoPage.cs" />
+    <Compile Include="Pages\ViewToyPage.cs" />
     <Compile Include="Services\OrderCreater.cs" />
     <Compile Include="Services\TestDataReader.cs" />
     <Compile Include="Tests\GeneralConfig.cs" />

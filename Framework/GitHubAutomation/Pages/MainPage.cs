@@ -12,6 +12,9 @@ namespace GitHubAutomation.Pages
         private IWebElement LoginButton { get; set; }
         [FindsBy(How = How.XPath, Using = "//*[@id='ajax_auth']/div/div[3]/div[1]/a")]
         private IWebElement RegisterButton { get; set; }
+        [FindsBy(How = How.XPath, Using = "//*[@id='header']/div[2]/div[2]/div/div/div/div/nav/div/table/tbody/tr/td[2]/div/a")]
+        private IWebElement ChildrenToysButton { get; set; }
+        
 
 
         public MainPage(IWebDriver browser)
@@ -22,5 +25,6 @@ namespace GitHubAutomation.Pages
         public void SelectToyClick() => SelectToyButton.Click();
         public void LoginClick() => LoginButton.Click();
         public void RegisterClick() => RegisterButton.Click();
+        public void ChildrenToysClick() => ChildrenToysButton.Click();
     }
 }
